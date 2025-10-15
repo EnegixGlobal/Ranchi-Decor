@@ -68,7 +68,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
         <div className="relative aspect-square overflow-hidden rounded-t-2xl">
           {discount && (
             <Badge className="absolute top-3 right-3 z-10 bg-[#B71C1C] text-white shadow-md text-xs">
-              -{discount}%
+              {discount}%
             </Badge>
           )}
           <img

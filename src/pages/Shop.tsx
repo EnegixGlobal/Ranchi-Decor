@@ -33,6 +33,7 @@ export default function Shop() {
     { id: "blind", label: "Window Blinds" },
     { id: "green", label: "Green Solutions" },
     { id: "panel", label: "Panels & Sheets" },
+    { id: "marvel", label: "Marvel & Tiles" },
   ];
 
   const filteredProducts = useMemo(() => {

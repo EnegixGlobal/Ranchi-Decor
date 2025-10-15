@@ -30,4 +30,9 @@ export const categories = [
     name: "Panels & Sheets",
     image: "/images/panels/VV_Marble_Sheets_4.jpg",
   },
+  {
+    id: "marvel",
+    name: "Marvel & Tiles",
+    image: "/images/marvel-tiles/-65dhto9a.avif",
+  },
 ];
