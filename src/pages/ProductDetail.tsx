@@ -78,7 +78,7 @@ export default function ProductDetail() {
           >
             {discount && (
               <Badge className="absolute top-4 right-4 bg-red-600 text-white text-sm px-3 py-1 shadow-md">
-                -{discount}%
+                {discount}%
               </Badge>
             )}
             <motion.img
